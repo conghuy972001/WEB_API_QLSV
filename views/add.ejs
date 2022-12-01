@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new Student</title>
+    <style>
+        input{ margin: 10px;}
+    </style>
+
+</head>
+<body>
+    <h3>ADD NEW STUDENT</h3>
+    <form action="./add" method="post" enctype="multipart/form-data">
+        <input type="text" name="textName" placeholder="Full name"/> <br/>
+        <input type="text" name="numberAge" placeholder="Age"/> <br/>
+        <input type="text" name="textClass" placeholder="Current class"/> <br/>
+        <input type="text" name="textDate" placeholder="Date of brith"/> <br/>
+        <input type="file" name="imageStudent"/> <br/>
+        <input type="submit" value="Add new"/>
+    </form>
+    <a href="./list">List Student</a>
+</body>
+</html>
